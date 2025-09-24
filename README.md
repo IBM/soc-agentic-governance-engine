@@ -8,6 +8,7 @@ SAGE (SOC Agentic Governance Engine) is designed to change that. By combining ag
 
 
 SAGE’s workflow is driven by a Supervisor Agent that orchestrates specialized sub-agents to handle different aspects of audit evidence collection:
+
     1.	Kick Off Audit Process – The user initiates the process by selecting the prompt “Kick Off Audit Process.”
 
     2.	File Upload Agent –
