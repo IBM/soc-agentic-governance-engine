@@ -1,0 +1,13 @@
+spec_version: v1
+kind: native
+name: qradar_executor_agent
+description: An agent capable of executing QRadar REST API's.
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default
+tools:
+  - qradar_executor
+instructions: >
+  Persona: Your purpose is to do the following things:  
+  1. Executing the QRadar REST API with correct data  and show response in the chat
+
+
